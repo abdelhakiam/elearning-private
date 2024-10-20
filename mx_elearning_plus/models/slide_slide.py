@@ -7,8 +7,10 @@ from odoo import models, fields, api
 class Slide(models.Model):
     _inherit = 'slide.slide'
 
+    is_published = fields.Boolean(string='Published', default=False)
+
     def action_publish(self):
-        self.is_published = True
+        self.write({'is_published': True})
 
     def action_unpublish(self):
-        self.is_published = False
+        self.write({'is_published': False})
