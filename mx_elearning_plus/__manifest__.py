@@ -8,7 +8,7 @@
     'author': 'ManpraX Software LLP',
     'category': 'Website/eLearning',
     'description': """
-Extended feature of elearning.
+Extended features for eLearning.
 """,
     'depends': [
         'website_slides',
@@ -18,8 +18,7 @@ Extended feature of elearning.
         'views/website_slides_templates_course.xml',
     ],
     'assets': {
-        'web.assets_backend': [
-        ],
+        'web.assets_backend': [],
         'web.assets_frontend': [
             'mx_elearning_plus/static/src/js/slides_course.js',
             'mx_elearning_plus/static/src/js/slides_course_extend.js',
