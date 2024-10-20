@@ -9,5 +9,7 @@ odoo.define('elearning_private_youtube_video.fullscreen', function (require) {
         xmlDependencies: (Fullscreen.prototype.xmlDependencies || []).concat(
             ["/elearning_private_youtube_video/static/website_slides_fullscreen.xml"]
         ),
+
+        // يمكنك إضافة المزيد من الوظائف هنا إذا لزم الأمر
     });
 });
